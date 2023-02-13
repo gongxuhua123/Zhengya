@@ -1,0 +1,30 @@
+.swipercontencss{
+  position: relative;
+}
+.swipercontencss,.swipercss,.swiperimg{
+  width: 100%;
+  height: 330rpx;
+}
+.indicatorDot{
+  width: 100%;
+ position: absolute;
+ bottom: 30rpx;
+ display: flex;
+ justify-content: center;
+}
+.indicatorDot view{
+ margin: 0 8rpx;
+ border-radius: 50%;
+}
+
+.soliddots{
+  width: 20rpx;
+  height: 20rpx;
+  background-color: #88c000;
+}
+.hollowdots{
+  width: 15rpx;
+  height: 15rpx;
+  background-color: rgba(0, 0, 0, 0);
+  border: 5rpx solid #88c000;
+}

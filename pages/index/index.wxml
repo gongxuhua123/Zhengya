@@ -1,0 +1,7 @@
+<view class="appindexcss">
+  <Head id="head" headstxt='登录' displas='0' />
+  <Swiper  class="swiperindex" />
+  <Transverse />
+  <Containe />
+  <Bottom />
+</view>

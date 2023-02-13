@@ -1,0 +1,12 @@
+<view class="content">
+  <view class="content2" style="height:{{heights}}px;line-height:{{heights-0+20}}px">
+    <!-- <view class="quyu" bindtap="{{displas==0?'':'returns'}}">
+      <view class="leftarrow" style="display:{{displas==0?'none':''}}"></view>
+    </view> -->
+    <text style="" class="headtext">{{headstxt}}</text>
+  </view>
+  <view class="content3" style="top:{{tops}}px;">
+   <image src="../../img/11.png" />
+   <text>77</text>
+  </view>
+</view>

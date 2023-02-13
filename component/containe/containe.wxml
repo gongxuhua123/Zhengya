@@ -1,0 +1,27 @@
+<view class="container_view">
+  <view class="container_for">
+    <block wx:for="{{containe}}" wx:key="containe">
+      <view class="tran_views containe_views" catchtap="ejectonclick" data-indexs="{{index}}">
+        <image src="../../img/{{item.src}}.png" />
+        <text>{{item.name}}</text>
+      </view>
+    </block>
+  </view>
+  <view class="container_eject fadeInRight" hidden="{{ejectboolean}}" catchtap="ejectOnclick" catchtouchmove="true">
+    <view class="functionalarea">
+      <view class="funalar_head">
+        <text>功能B</text>
+      </view>
+      <view class="funalar_container">
+        <block wx:for="{{funalardata}}" wx:key='funalardata'>
+          <view class="tran_views funalar_view">
+            <view class="imagback">
+              <image src="../../img/{{item.src}}.png" />
+            </view>
+            <text>{{item.name}}</text>
+          </view>
+        </block>
+      </view>
+    </view>
+  </view>
+</view>

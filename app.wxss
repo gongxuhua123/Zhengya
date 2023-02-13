@@ -1,0 +1,12 @@
+.tran_views{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tran_views text{
+  margin-top: 10rpx;
+  font-size: 35rpx;
+  color: #a1a1a1;
+}

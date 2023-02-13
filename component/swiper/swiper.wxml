@@ -1,0 +1,15 @@
+<view class="swipercontencss">
+  <swiper class="swipercss"  bindchange="swiperonchanger" indicator-dots="{{false}}" autoplay="{{autoplay}}" interval="{{interval}}"
+    duration="{{duration}}">
+    <block wx:for="{{datat}}" wx:key="swipers">
+      <swiper-item>
+        <image src="../../img/{{item.src}}.png" class="swiperimg" />
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class="indicatorDot">
+    <block wx:for="{{datat}}" wx:key="swipersDots">
+     <view class="{{indicatorIndex === index ? 'soliddots':'hollowdots'}}"></view>
+    </block>
+  </view>
+</view>

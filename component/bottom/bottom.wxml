@@ -1,0 +1,8 @@
+<view class="conent">
+  <view class="loopdiv" wx:key="loopdiv" wx:for="{{loopdata}}">
+     <image wx:if="{{index !=2}}" src="../../img/{{item.src}}.png" />
+     <image wx:if="{{index == 2}}" src=""/>
+    <text>{{item.name}}</text>
+    <image wx:if="{{index === 2}}" src="../../img/9.png"/>
+  </view>
+</view>

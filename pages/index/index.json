@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "Head":"../../component/head/head",
+    "Bottom":"../../component/bottom/bottom",
+    "Swiper":"../../component/swiper/swiper",
+    "Transverse":"../../component/transverse/transverse",
+    "Containe":"../../component/containe/containe"
+  },
+  "navigationStyle":"custom"
+}

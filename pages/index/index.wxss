@@ -1,0 +1,9 @@
+page,.main{
+  background-color: #eee;
+}
+.appindexcss{
+  padding-bottom: 90px;
+}
+.swiperindex{
+  height: 330rpx;
+}
